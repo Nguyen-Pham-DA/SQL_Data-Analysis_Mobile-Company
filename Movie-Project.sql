@@ -16,7 +16,7 @@ SELECT CONCAT(first_name," ",last_name) AS Full_name, TRUNCATE(DATEDIFF(SYSDATE(
 FROM m_consumer
 WHERE gender = 'F' AND country IN ('India','Nepal','Bangladesh','Bhutan','Sri Lanka','Maldives','Pakistan');
 
--- Question 4: List all the movies in Japanese, Italian, Greek just showing language_id 
+-- Question 4: List all the movies in Japanese (id: 7), Italian (id: 13), Greek (id: 32), just showing language_id 
 
 SELECT language_id
 FROM m_languages
